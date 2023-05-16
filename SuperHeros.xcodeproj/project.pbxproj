@@ -13,6 +13,7 @@
 		2CBD7B7E2A13507D00477E55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CBD7B7C2A13507D00477E55 /* Main.storyboard */; };
 		2CBD7B802A13507E00477E55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CBD7B7F2A13507E00477E55 /* Assets.xcassets */; };
 		2CBD7B832A13507E00477E55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CBD7B812A13507E00477E55 /* LaunchScreen.storyboard */; };
+		2CBD7B902A1366BD00477E55 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBD7B8F2A1366BD00477E55 /* DetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		2CBD7B7F2A13507E00477E55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2CBD7B822A13507E00477E55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2CBD7B842A13507E00477E55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CBD7B8F2A1366BD00477E55 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +58,40 @@
 		2CBD7B752A13507D00477E55 /* SuperHeros */ = {
 			isa = PBXGroup;
 			children = (
+				2CBD7B8C2A1350AC00477E55 /* Controllers */,
+				2CBD7B8B2A13509A00477E55 /* Views */,
+				2CBD7B8A2A13508E00477E55 /* Supporting Files */,
+			);
+			path = SuperHeros;
+			sourceTree = "<group>";
+		};
+		2CBD7B8A2A13508E00477E55 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
 				2CBD7B762A13507D00477E55 /* AppDelegate.swift */,
 				2CBD7B782A13507D00477E55 /* SceneDelegate.swift */,
-				2CBD7B7A2A13507D00477E55 /* ViewController.swift */,
-				2CBD7B7C2A13507D00477E55 /* Main.storyboard */,
 				2CBD7B7F2A13507E00477E55 /* Assets.xcassets */,
 				2CBD7B812A13507E00477E55 /* LaunchScreen.storyboard */,
 				2CBD7B842A13507E00477E55 /* Info.plist */,
 			);
-			path = SuperHeros;
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2CBD7B8B2A13509A00477E55 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2CBD7B7C2A13507D00477E55 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2CBD7B8C2A1350AC00477E55 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2CBD7B7A2A13507D00477E55 /* ViewController.swift */,
+				2CBD7B8F2A1366BD00477E55 /* DetailsViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +168,7 @@
 				2CBD7B7B2A13507D00477E55 /* ViewController.swift in Sources */,
 				2CBD7B772A13507D00477E55 /* AppDelegate.swift in Sources */,
 				2CBD7B792A13507D00477E55 /* SceneDelegate.swift in Sources */,
+				2CBD7B902A1366BD00477E55 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
